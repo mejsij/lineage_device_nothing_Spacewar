@@ -319,10 +319,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libstagefrighthw
 
-# Parts
-PRODUCT_PACKAGES += \
-    NothingParts
-
 # Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.2.vendor
