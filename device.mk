@@ -18,6 +18,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-lineage
 
+# RRO (Spacewar)
+PRODUCT_PACKAGES += \
+    SpacewarNfc
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Soong namespaces

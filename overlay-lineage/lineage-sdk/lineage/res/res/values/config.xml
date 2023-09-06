@@ -5,6 +5,9 @@
     <string-array name="config_cameraAuxPackageAllowList" translatable="false">
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
+        <item>org.codeaurora.snapcam</item>
+        <item>com.android.camera</item>
+        <item>com.nothing.camera</item>
     </string-array>
 
     <!-- Whether device has screen with higher aspect ratio -->
