@@ -455,3 +455,6 @@ PRODUCT_BOOT_JARS += \
 
 # Firmware 
 $(call inherit-product, vendor/nothing/firmware/Android.mk)
+
+# NT Camera
+$(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
