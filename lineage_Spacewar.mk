@@ -14,6 +14,26 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Spacewar Properties
+TARGET_ENABLE_BLUR := true
+TARGET_EXCLUDES_AUDIOFX := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_HAS_UDFPS := true
+
+# Camera
+TARGET_USES_NOTHING_CAMERA := true
+TARGET_NEEDS_64BIT_CAMERA_USAGE_FLAGS := true
+TARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT := true
+
+# Alpha Properties
+TARGET_INCLUDE_MATLOG := false
+TARGET_USE_GRAPHENE_CAMERA := false
+TARGET_USE_PIXEL_LAUNCHER := false
+ALPHA_MAINTAINER := Mejsi
+WITH_GAPPS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_Spacewar
 PRODUCT_DEVICE := Spacewar
